@@ -17,6 +17,9 @@ const Title= ()=>{
             <Switch
             onChange={toggleSwitch}
             checked = {theme==="dark"}
+            uncheckedIcon={false}
+            checkedIcon={false}
+            onColor='#ffa500'
             />
         </header>
     )

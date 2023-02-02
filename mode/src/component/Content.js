@@ -13,7 +13,7 @@ const Content=()=>{
                 <h1>Jetsadakorn Official</h1>
                 <p className={theme==="dark" ? "dark" : "light"}>DarkMode Workshop</p>
             </div>
-            <img src={light} alt="Logo"/>
+            <img src={theme==="dark"? dark : light} alt="LOGO"/>
         </main>
     )
 }
